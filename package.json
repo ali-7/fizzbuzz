@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "node test.js | tap-spec"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/foundersandcoders/fizzbuzz#readme",
   "devDependencies": {
-    "tap-spec": "^4.1.1",
-    "tape": "^4.7.0"
+    "@types/jest": "^24.9.0",
+    "jest": "^24.9.0"
   }
 }
